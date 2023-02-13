@@ -11,7 +11,7 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   <header className='bg-[#0d1c22] flex font-semibold items-center shadow-lg w-full fixed'>
     <nav className='pageContainer flex justify-between px-8 py-3'>
       <div className='flex items-center gap-2'>
-      <img src='fotoportfolio.jpeg' alt='' className='rounded-full w-10'></img>
+      <img src='./images/fotoportfolio.jpeg' alt='' className='rounded-full w-10'></img>
         <a className='mr-4 font-sans font-bold text-3xl hover:text-white transition-all duration-200' href='#home'>AQ</a>
       </div>
       <div className='flex items-center gap-3'>

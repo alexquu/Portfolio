@@ -1,7 +1,7 @@
 export const Data = [
     {
         id: 1,
-        img: "/arkanoid.jpg",
+        img: "./images/arkanoid.jpg",
         title: 'Arkanoid',
         quote: 'The game i loved when i was a child, recreated in JS',
         gitLink: 'https://github.com/alexquu/Arkanoid',
@@ -9,7 +9,7 @@ export const Data = [
     },
     {
         id: 2,
-        img: "/Nbastats.jpg",
+        img: "./images/Nbastats.jpg",
         title: 'Nba Stats',
         quote: 'An app to visualize season averages for every NBA player. More on the GitHub page. ',
         gitLink: 'https://github.com/alexquu/nba-stats',
@@ -17,7 +17,7 @@ export const Data = [
     },
     {
         id: 3,
-        img: "/9thirty.jpg",
+        img: "./images/9thirty.jpg",
         title: '9Thirty.com',
         quote: 'The site of my band',
         gitLink: 'https://github.com/alexquu/nine-thirty',
