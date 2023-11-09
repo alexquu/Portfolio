@@ -4,7 +4,12 @@ import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 const Projectcard = ({ id, img, title, quote, gitLink, siteLink }) => {
   return (
     <>
-      <div className="flex flex-col justify-between gap-10 border border-[#ebcfbb] rounded-xl p-6 max-sm:w-full">
+      <a
+        href={siteLink}
+        target="_blank"
+        rel="noreferrer noopener"
+        className="hover:bg-cyan-950 flex flex-col cursor-pointer justify-between gap-10 border border-[#ebcfbb] rounded-xl p-6 max-sm:w-full"
+      >
         <span className="flex flex-col gap-4">
           <img
             key={id}
@@ -21,13 +26,13 @@ const Projectcard = ({ id, img, title, quote, gitLink, siteLink }) => {
               <AiFillGithub size={25} />
             </span>
           </a>
-          <a href={siteLink} target="_blank" rel="noreferrer noopener">
+          {/* <a href={siteLink} target="_blank" rel="noreferrer noopener">
             <span className="self-end cursor-pointer hover:text-white transition-all duration-200">
               <AiOutlineLink size={25} />
             </span>
-          </a>
+          </a> */}
         </div>
-      </div>
+      </a>
     </>
   );
 };

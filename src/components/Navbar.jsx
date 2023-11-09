@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className="pageContainer flex justify-between px-8 py-3">
           <div className="flex items-center gap-2">
             <a
-              className="ml-1 text-2xl hover:text-white transition-all duration-200"
+              className="text-2xl hover:text-white transition-all duration-200"
               href="#home"
             >
               AQ

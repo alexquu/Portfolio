@@ -29,6 +29,7 @@ code {
   margin-left: auto;
   margin-right: auto;
   animation: 1s ease-out 0s 1 animPres;
+  /* border: wheat solid 1px; */
 }
 
 .fadeIn {

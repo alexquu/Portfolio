@@ -5,7 +5,7 @@ import { BiMailSend } from "react-icons/bi";
 const Presentation = () => {
   return (
     <section
-      className="presentation pageContainer h-screen flex flex-col gap-16 p-8"
+      className="presentation pageContainer h-screen flex flex-col gap-16 px-8"
       id="home"
     >
       <img
