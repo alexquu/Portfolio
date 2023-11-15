@@ -8,7 +8,7 @@ const Projectcard = ({ id, img, title, quote, gitLink, siteLink }) => {
         href={siteLink}
         target="_blank"
         rel="noreferrer noopener"
-        className="hover:bg-cyan-950 flex flex-col cursor-pointer justify-between gap-10 border border-[#ebcfbb] rounded-xl p-6 max-sm:w-full"
+        className="hover:bg-[#0E2954] flex flex-col cursor-pointer justify-between gap-10 border border-[#ebcfbb] rounded-xl p-6 max-sm:w-full"
       >
         <span className="flex flex-col gap-4">
           <img

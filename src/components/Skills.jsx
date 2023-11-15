@@ -12,7 +12,7 @@ import { SiMaterialui, SiTailwindcss } from "react-icons/si";
 const Skills = () => {
   return (
     <section
-      className="pageContainer h-screen p-8 flex flex-col justify-center"
+      className="pageContainer h-screen p-8 flex flex-col justify-center items-center"
       id="skills"
     >
       <p className="font-bold flex-wrap text-5xl max-md:text-4xl pt-20 pb-6">
@@ -22,7 +22,7 @@ const Skills = () => {
         All the languages and frameworks i used in my projects
       </p>
       <hr className="w-3/4 mt-10 border-[#EED0B9]" />
-      <div className="iconContainer flex flex-wrap gap-10 justify-start py-12">
+      <div className="flex flex-row flex-wrap gap-10 py-12 text-center">
         <p className="font-bold flex flex-col items-center">
           <AiFillHtml5
             size={50}

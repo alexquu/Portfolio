@@ -5,45 +5,58 @@ import { BiMailSend } from "react-icons/bi";
 const Presentation = () => {
   return (
     <section
-      className="presentation pageContainer h-screen flex flex-col gap-16 px-8"
+      className="pageContainer h-screen w-full flex items-center"
       id="home"
     >
-      <img
-        src="./images/fotoportfolio.jpeg"
-        alt=""
-        className="rounded-full w-60 self-center mt-56 mb-20"
-      ></img>
-      <p className="text-5xl font-semibold max-md:text-4xl ">
-        Hi, i'm Alessandro Quarin
-      </p>
-      <a
-        href="mailto:alexqu86@gmail.com"
-        className="group border border-[#EED0B9] p-4 rounded-xl hover:bg-[#1c4397] transition-all duration-25 w-fit h-14"
-      >
-        Get in touch
-        <BiMailSend
-          className="relative bottom-7 left-32 opacity-0 group-hover:animate-slip"
-          size={30}
-        />
-      </a>
-      <span className="flex ">
-        <a
-          className="hover:text-white hover:scale-110 transition-all duration-150"
-          href="https://www.linkedin.com/in/alessandro-quarin-981475113/"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <AiOutlineLinkedin size={40} />
-        </a>
-        <a
-          className="hover:text-white hover:scale-110 transition-all duration-150"
-          href="https://github.com/alexquu"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <AiFillGithub size={40} />
-        </a>
-      </span>
+      <div className="flex flex-col w-screen mt-20">
+        <div className="flex items-center">
+          <span className="p-10 max-sm:px-4">
+            <img
+              src="./images/fotoportfolio.jpeg"
+              alt=""
+              className="rounded-full w-72 max-w-2xl max-md:w-56 max-sm:w-40 border-8 border-[#EED0B9]"
+            />
+          </span>
+          <span className="p-10 flex-1">
+            <p className="text-6xl font-semibold max-md:text-4xl max-sm:text-3xl pb-10 text-end">
+              Alessandro Quarin
+            </p>
+            <p className="text-3xl max-md:text-xl max-sm:text-lg text-end">
+              Front End Developer
+            </p>
+          </span>
+        </div>
+        <span className="flex gap-4 flex-col p-10 max-sm:px-4">
+          <a
+            href="mailto:alexqu86@gmail.com"
+            className="group border border-[#EED0B9] block w-fit h-20 p-6 rounded-xl hover:bg-[#0E2954] transition-all duration-25 text-xl max-md:text-base max-md:p-4 max-md:h-14"
+          >
+            Get in touch
+            <BiMailSend
+              className="relative bottom-7 left-32 opacity-0 group-hover:animate-slip"
+              size={30}
+            />
+          </a>
+          <span className="flex gap-4">
+            <a
+              className="hover:text-white hover:scale-110 transition-all duration-150"
+              href="https://www.linkedin.com/in/alessandro-quarin-981475113/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <AiOutlineLinkedin size={40} />
+            </a>
+            <a
+              className="hover:text-white hover:scale-110 transition-all duration-150"
+              href="https://github.com/alexquu"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <AiFillGithub size={40} />
+            </a>
+          </span>
+        </span>
+      </div>
     </section>
   );
 };
