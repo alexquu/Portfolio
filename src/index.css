@@ -2,25 +2,15 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #1f6e8c;
+  background: #1b5e79;
   width: 100%;
-  color: #fbdcc4;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  color: #ecd0ba;
+  font-family: "Inter", sans-serif;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-  html {
-    font-family: open sans, Rubik, Inconsolata, sans-serif;
-  }
-}
 
 .pageContainer {
   width: 100%;

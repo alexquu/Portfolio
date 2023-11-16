@@ -18,12 +18,13 @@ const Presentation = () => {
             />
           </span>
           <span className="p-10 flex-1">
-            <p className="text-6xl font-semibold max-md:text-4xl max-sm:text-3xl pb-10 text-end">
+            <p className="text-6xl font-extrabold max-md:text-4xl max-sm:text-3xl pb-10">
               Alessandro Quarin
             </p>
-            <p className="text-3xl max-md:text-xl max-sm:text-lg text-end">
-              Front End Developer
-            </p>
+            <p className="text-4xl max-md:text-xl max-sm:text-lg">
+              Front end developer
+            </p>{" "}
+            <br />
           </span>
         </div>
         <span className="flex gap-4 flex-col p-10 max-sm:px-4">
