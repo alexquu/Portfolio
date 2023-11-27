@@ -6,19 +6,16 @@ const Projects = () => {
   return (
     <>
       <section
-        className="pageContainer h-screen w-full flex items-center text-[#ebcfbb] max-sm:h-auto p-10"
+        className="pageContainer h-screen flex flex-col justify-center max-sm:h-auto p-10 max-sm:px-4"
         id="projects"
       >
-        <div className="">
-          <p className="font-bold text-5xl max-md:text-4xl text-center mb-10">
-            My projects:
-          </p>
-
-          <div className="pageContainer flex gap-4 max-sm:flex-wrap">
-            {Data.map((card) => (
-              <Projectcard key={card.id} {...card} />
-            ))}
-          </div>
+        <p className="font-bold text-5xl max-md:text-4xl text-center max-md:text-start mb-10 max-sm:mt-20">
+          My projects:
+        </p>
+        <div className="flex gap-4 max-sm:flex-wrap">
+          {Data.map((card) => (
+            <Projectcard key={card.id} {...card} />
+          ))}
         </div>
       </section>
     </>

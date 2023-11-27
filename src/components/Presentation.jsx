@@ -9,25 +9,25 @@ const Presentation = () => {
       id="home"
     >
       <div className="flex flex-col w-screen mt-20">
-        <div className="flex items-center">
-          <span className="p-10 max-sm:px-4">
+        <div className="p-10 flex items-center max-md:flex-col max-md:items-start max-md:px-10 max-md:py-0 max-sm:px-4">
+          <span>
             <img
               src="./images/fotoportfolio.jpeg"
               alt=""
-              className="rounded-full w-72 max-w-2xl max-md:w-56 max-sm:w-40 border-8 border-[#EED0B9]"
+              className="rounded-full w-64 max-w-2xl max-md:w-56 max-sm:w-48 border-8 border-[#EED0B9]"
             />
           </span>
-          <span className="p-10 flex-1">
-            <p className="text-6xl font-extrabold max-md:text-4xl max-sm:text-3xl pb-10">
+          <span className="px-10 flex-1 max-md:px-0 max-sm:px-0 max-md:py-4">
+            <p className="text-6xl font-extrabold max-md:text-4xl max-sm:text-4xl pb-10">
               Alessandro Quarin
             </p>
-            <p className="text-4xl max-md:text-xl max-sm:text-lg">
+            <p className="text-4xl max-md:text-xl max-sm:text-xl">
               Front end developer
             </p>{" "}
             <br />
           </span>
         </div>
-        <span className="flex gap-4 flex-col p-10 max-sm:px-4">
+        <span className="flex gap-4 flex-col px-10 max-sm:px-4">
           <a
             href="mailto:alexqu86@gmail.com"
             className="group border border-[#EED0B9] block w-fit h-20 p-6 rounded-xl hover:bg-[#0E2954] transition-all duration-25 text-xl max-md:text-base max-md:p-4 max-md:h-14"

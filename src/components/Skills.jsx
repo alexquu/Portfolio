@@ -12,17 +12,17 @@ import { SiMaterialui, SiTailwindcss } from "react-icons/si";
 const Skills = () => {
   return (
     <section
-      className="pageContainer h-screen p-8 flex flex-col justify-center items-center"
+      className="pageContainer h-screen p-8 flex flex-col justify-center items-center max-md:items-start max-sm:px-4"
       id="skills"
     >
-      <p className="font-bold flex-wrap text-5xl max-md:text-4xl pt-20 pb-6">
+      <p className="font-bold flex-wrap text-5xl max-md:text-4xl max-sm:text-3xl pt-20 pb-6">
         Skills and technologies
       </p>
-      <p className="font-light flex-wrap text-2xl max-md:text-xl">
+      <p className="font-light flex-wrap text-2xl max-md:text-xl max-sm:text-lg">
         All the languages and frameworks i used in my projects
       </p>
       <hr className="w-3/4 mt-10 border-[#EED0B9]" />
-      <div className="flex flex-row flex-wrap gap-10 py-12 text-center">
+      <div className="flex flex-row flex-wrap gap-10 py-12 text-center items-center justify-center max-md:justify-start">
         <p className="font-bold flex flex-col items-center">
           <AiFillHtml5
             size={50}
@@ -44,7 +44,7 @@ const Skills = () => {
           />
           Javascript
         </p>
-        <p className="font-bold flex flex-col items-center">
+        <p className="font-bold flex flex-col items-center ">
           <DiReact
             size={50}
             className="hover:scale-110 hover:text-[#06ADC9] cursor-pointer transition-all duration-200"
