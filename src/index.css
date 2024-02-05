@@ -2,7 +2,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #1b5e79;
+  background-image: radial-gradient(
+    circle farthest-corner at 80.4% 21.7%,
+    rgb(16, 122, 143) 0%,
+    rgb(32, 94, 168) 100.2%
+  );
   width: 100%;
   color: #ecd0ba;
   font-family: "Inter", sans-serif;

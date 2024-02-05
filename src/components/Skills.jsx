@@ -7,7 +7,7 @@ import {
   DiBootstrap,
   DiGit,
 } from "react-icons/di";
-import { SiMaterialui, SiTailwindcss } from "react-icons/si";
+import { SiMui, SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -22,7 +22,7 @@ const Skills = () => {
         All the languages and frameworks i used in my projects
       </p>
       <hr className="w-3/4 mt-10 border-[#EED0B9]" />
-      <div className="flex flex-row flex-wrap gap-10 py-12 text-center items-center justify-center max-md:justify-start">
+      <div className="grid grid-cols-8 grid-rows-1 gap-10 py-12 text-center justify-items-center max-sm:gap-4 max-md:grid-rows-2 max-md:grid-cols-4">
         <p className="font-bold flex flex-col items-center">
           <AiFillHtml5
             size={50}
@@ -44,14 +44,14 @@ const Skills = () => {
           />
           Javascript
         </p>
-        <p className="font-bold flex flex-col items-center ">
+        <p className="font-bold flex flex-col items-center">
           <DiReact
             size={50}
             className="hover:scale-110 hover:text-[#06ADC9] cursor-pointer transition-all duration-200"
           />
           React
         </p>
-        <p className="font-bold flex flex-col items-center">
+        <p className=" font-bold flex flex-col items-center">
           <DiBootstrap
             size={50}
             className="hover:scale-110 hover:text-[#7410EB] cursor-pointer transition-all duration-200"
@@ -59,11 +59,11 @@ const Skills = () => {
           Bootstrap
         </p>
         <p className="font-bold flex flex-col items-center">
-          <SiMaterialui
+          <SiMui
             size={50}
             className="hover:scale-110 hover:text-[#0079F2] cursor-pointer transition-all duration-200"
           />
-          MUI
+          Material UI
         </p>
         <p className="font-bold flex flex-col items-center">
           <SiTailwindcss
